@@ -15,15 +15,15 @@ endif
 compiler asciidoc
 
 setlocal foldmethod=marker
-if &spelllang == ''
-  setlocal spelllang=en
-endif
+" if &spelllang == ''
+"   setlocal spelllang=en
+" endif
 
-setlocal spell
-setlocal autoindent expandtab softtabstop=2 shiftwidth=2 wrap
-if &textwidth == 0
-  setlocal textwidth=70
-endif
+" setlocal spell
+" setlocal autoindent expandtab softtabstop=2 shiftwidth=2 wrap
+" if &textwidth == 0
+"   setlocal textwidth=70
+" endif
 setlocal comments=://
 setlocal commentstring=//\ %s
 
